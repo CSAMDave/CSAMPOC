@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asset Test & Inspection Platform</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="logo">A</div>
+        <div>
+          <h1>Atlas Industrial</h1>
+          <p>Asset Compliance Suite</p>
+        </div>
+      </div>
+      <nav id="navList"></nav>
+      <div class="status-panel">
+        <p>Region: North West</p>
+        <p>Shift: Day Operations</p>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <section id="screen-login" class="screen active"></section>
+      <section id="screen-2fa" class="screen"></section>
+      <section id="screen-dashboard" class="screen"></section>
+      <section id="screen-create-test" class="screen"></section>
+      <section id="screen-execution" class="screen"></section>
+      <section id="screen-certificates" class="screen"></section>
+      <section id="screen-supervisor" class="screen"></section>
+    </main>
+  </div>
+
+  <div id="photoModal" class="modal hidden"></div>
+  <div id="completeModal" class="modal hidden"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
